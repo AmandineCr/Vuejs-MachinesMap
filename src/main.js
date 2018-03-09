@@ -8,6 +8,9 @@ import Map from './MachinesMap.vue'
 import Machine from './Machine.vue'
 import titi from './toto.vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
+
+
+
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyB51r2jz8StOiayZK4ZRSVJ8nkYZYU5LD4',
@@ -20,6 +23,7 @@ Vue.component('machineClick', Machine)
 Vue.component('toto', titi)
 
 Vue.use(VueRouter)
+
 
 const router = new VueRouter({
     routes:Routes
